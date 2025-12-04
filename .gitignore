@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# SQLite database
+expense_tracker.db
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Logs
+*.log
+
+# Mac system files
+.DS_Store
+
+# Python packaging files
+build/
+dist/
+*.egg-info/
+
+# Docker intermediate folders
+*.tar
