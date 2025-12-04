@@ -1,41 +1,44 @@
-Expense Tracker – Python CLI Application
+**Expense Tracker – Python CLI Application**
+
 This project is built for the L7 Informatics Internship Assignment.
 It is a simple terminal-based Python application to track expenses, set budgets, and view monthly summaries.
 SQLite is used as the database and SQLAlchemy as the ORM.
 
-Features
+**Features**
 
-Add categories
+1. Add categories
 
-Set monthly budgets
+2. Set monthly budgets
 
-Log daily expenses
+3. Log daily expenses
 
-Alerts when budget is exceeded
+4. Alerts when budget is exceeded
 
-Warning when only ~10% budget is left
+5. Warning when only ~10% budget is left
 
-View total spending per month
+6. View total spending per month
 
-View spending vs budget per category
+7. View spending vs budget per category
 
-How to Run (Local)
+**How to Run (Local)**
 1. Create & activate virtual environment
 python -m venv venv
 venv\Scripts\activate     (Windows)
+
 2. Install dependencies
 pip install -r requirements.txt
+
 3. Run the application
 python app.py
 
-Docker Instructions
+**Docker Instructions**
 Build image
 docker build -t expense-tracker-cli .
 
 Run container
 docker run -it expense-tracker-cli
 
-Database
+**Database**
 
 Uses SQLite (expense_tracker.db)
 
@@ -43,7 +46,7 @@ Models created using SQLAlchemy ORM
 
 Tables: users, categories, budgets, expenses
 
-Test Steps
+**Test Steps**
 
 Add Category → Option 1
 
