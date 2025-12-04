@@ -22,13 +22,17 @@ SQLite is used as the database and SQLAlchemy as the ORM.
 
 **How to Run (Local)**
 1. Create & activate virtual environment
+   
   python -m venv venv
+  
   venv\Scripts\activate     (Windows)
 
 3. Install dependencies
+   
   pip install -r requirements.txt
 
-4. Run the application
+5. Run the application
+   
   python app.py
 
 **Docker Instructions**
